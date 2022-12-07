@@ -1,0 +1,126 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+    padding: 0;
+    margin:0;
+    
+}
+
+.container{
+    width: 65%;
+    height: auto;
+    background: white;
+    margin:auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.logo {
+    color: lightpink;
+    font-size: xx-large;
+    padding: 30px 0 30px 10px;
+    background-image: url('img/header-purple.jpg');
+}
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightpink;
+    border: 1px solid gainsboro;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a{
+    display: inline-block;
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    opacity:0.9;
+    background-color: darkred;
+}
+
+stok {
+    width: 98.8%;
+    height: auto;
+    border-radius: 3px;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid gainsboro;
+    clear: both;
+}
+
+stok p {
+    padding: 5px 6px 5px 5px;
+    line-height: 1.5;  
+}
+stok .konten {
+    width: 23.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    float: left;
+}
+
+stok .isi {
+    width: 98.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    float: left;
+}
+stok .isi .judul {
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+stok .isi p {
+    margin-top: 0;
+}
+stok .isi img {
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+
+stok .konten img {
+    width: 95.8%;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+
+}
+stok .konten:hover {
+    opacity:0.9;
+
+}
+stok .konten .judul a {
+    margin-left: 5px;
+    text-decoration: none;
+    font-size:x-large;
+    color:#020101;
+}
+
+stok .konten a:hover {
+    opacity:0.9;
+}
+
+footer {
+    clear: both;
+    width: 98.8%;
+    height: auto;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border-bottom: 1px solid gainsboro;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    color: #808080; 
+    Background-color: pink;
+}
